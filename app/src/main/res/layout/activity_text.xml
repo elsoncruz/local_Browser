@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- SurfaceView for Camera Preview -->
+    <SurfaceView
+        android:id="@+id/mySurfaceView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!-- Button to Control Operations -->
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capture"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/aqua"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- TextView to Display Recognized Text -->
+    <TextView
+        android:id="@+id/textView"
+        android:textIsSelectable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/captureButton"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/round_design"
+        android:backgroundTint="#80000000"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Smart Browser</string>
+    <string name="Enter_Url">Enter Url</string>
+    <string name="go_btn">GO</string>
+    <string name="st">Settings button</string>
+
+    <string name="search_hint">Search</string>
+    <string name="ic_back">Back</string>
+    <string name="ic_full">Full Screen</string>
+    <string name="for_word">Forword</string>
+    <string name="ic_book">BookMark</string>
+    <string name="ic_save">Save</string>
+    <string name="desktop">Desktop</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bookmark">book_mark</string>
+    <string name="bookmark_name">__  Bookmark Name</string>
+    <string name="view_all">view all</string>
+    <string name="capture">Capture</string>
+    <string name="bookmark2">BookMark</string>
+    <string name="All_bookmark2">All_BookMark</string>
+    <string name="ref">refresh\n</string>
+    <string name="_1">1</string>
+</resources>
